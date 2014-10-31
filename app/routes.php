@@ -11,4 +11,4 @@
 |
  */
 
-Route::get('/', ['as' => 'layout', 'uses' => 'LogginController@login']);
+Route::get('/', ['as' => 'carrusel', 'uses' => 'CarruselController@carrusel']);

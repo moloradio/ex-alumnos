@@ -1,6 +1,6 @@
 <?php
 
-class LogginController extends Controller {
+class LogginController extends BaseController {
 
 	/**
 	 * Setup the layout used by the controller.
