@@ -1,0 +1,281 @@
+/*DIV principales, contenedore principales*/
+#main_div_perfil{
+	background: none repeat scroll 0% 0% rgba(120, 120, 120, 0.07);
+	margin-top: 1.2em;
+	display: inline-block;
+	position: static;
+	border-radius: 8px;
+	width: 100%;
+	height: 76%;
+}
+
+.div_izquierdo_perfil{
+	float: left;
+	width: 60%;
+	margin-top: 1.2%;
+	margin-left: 1%;
+	border-radius: 8px;
+}
+
+.div_derecho_perfil{
+	margin-right: 1%;
+	margin-top: 1.2%;
+	float: right;
+	width: 36%;
+	height: 60%;
+	overflow: scroll;
+	border-radius: 8px;
+	background: #CECED0;
+}
+
+.div_izquierdo_perfil, .div_derecho_perfil{
+	display: inherit;
+	position: inherit;
+}
+
+/*Contenedor Izquierdo*/
+
+.in_div_izquierdo{
+	width: 100%;
+	height: 100%;
+}
+
+.izquierdo{
+	display: block;
+	float: inherit;
+}
+
+#div_cerrar_sesion{
+	display: block;
+}
+
+#bttn_sesion{
+	margin-right: 1.6em;
+	float: right;
+}
+
+#img_perfil{
+	margin-left: 1%;
+	margin-top: 0.7%;
+	height: 28%;
+	width: 20%;
+}
+
+#bttn_subir_img{
+	margin-left: 2%;
+	margin-top: 1em;
+	margin-bottom: 0.4em;
+}
+
+#text_info_perfil{
+	margin-left: 1%;
+	width: 90%;
+	height: 6em;
+}
+
+#text_info_academica{
+	margin-left: 1%;
+	width: 90%;
+	height: 6em;
+}
+
+#text_info_laboral{
+	margin-left: 1%;
+	width: 90%;
+	height: 6em;
+}
+
+#text_info_cuenta{
+	margin-left: 1%;
+	width: 90%;
+	height: 6em;
+}
+
+.editar{
+	float: right;
+}
+
+.div_titulo_info{
+	width: 80%;
+}
+
+.div_titulo_info label{
+	font-family: Calibri;
+	font-weight: bold;
+}
+
+/*Contenedor derecho*/
+
+.in_div_derecho{
+	display: inline;
+	float: right;
+	width: 100%;
+	max-height: 100%;
+}
+
+#label_contactos{
+	text-align: center;
+	font-size: 1.2em;
+	font-family: Calibri;
+	width: 100%;
+}
+
+.div_contacto{
+	width: 94%;
+	margin-left: 3%;
+	border-radius: 8px;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	/*background: #5A758D;*/
+	background: linear-gradient(to bottom, #FFF 0%, #FEFEFE 24%, #F7F7F7 36%, #DADADA 73%, #D6D6D6 82%, #D6D6D6 100%) repeat scroll 0% 0% transparent;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #FFF 0%, #FEFEFE 24%, #F7F7F7 36%, #DADADA 73%, #D6D6D6 82%, #D6D6D6 100%);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+
+    box-shadow: -1px 1px 1px 0px rgba(0, 0, 0, 0.46);
+}
+
+.div_contacto:hover{
+	background: #d6d6d6;
+    background: -moz-linear-gradient(top, #d6d6d6 0%, #d7d7d7 24%, #dedede 36%, #fbfbfb 73%, #ffffff 82%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6d6d6), color-stop(24%,#d7d7d7), color-stop(36%,#dedede), color-stop(73%,#fbfbfb), color-stop(82%,#ffffff), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top, #d6d6d6 0%,#d7d7d7 24%,#dedede 36%,#fbfbfb 73%,#ffffff 82%,#ffffff 100%);
+    background: -o-linear-gradient(top, #d6d6d6 0%,#d7d7d7 24%,#dedede 36%,#fbfbfb 73%,#ffffff 82%,#ffffff 100%);
+    background: -ms-linear-gradient(top, #d6d6d6 0%,#d7d7d7 24%,#dedede 36%,#fbfbfb 73%,#ffffff 82%,#ffffff 100%);
+    background: linear-gradient(to bottom, #d6d6d6 0%,#d7d7d7 24%,#dedede 36%,#fbfbfb 73%,#ffffff 82%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#ffffff',GradientType=0 );
+    -webkit-box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.21);
+    box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.21);
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.42);
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.42);
+}
+
+.imagen_contacto{
+	margin-top: 0.5em;
+	margin-left: 0.7em;
+	height: 13%;
+	width: 12%;
+}
+
+.nombre_contacto{
+	font-family: Calibri;
+	font-size: 1em;
+	top: 40%;
+}
+
+/*Contenedor para informacion del usuario*/
+
+.div_contenedor_info_usr{
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	background: #CECED0;
+}
+
+/************************/
+/**********EDICION DE PERFIL***************/
+#div_main_edicion_perfil{
+	position: fixed;
+	display: none;
+	top: 0em;
+	left: 0em;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+#div_edicion_perfil{
+	position: fixed;
+	display: block;
+	top: 15%;
+	left: 30%;
+	height: 70%;
+	max-height: 70%;
+	overflow: hidden;
+	width: 40%;
+	background: rgba(256, 256, 256, 1);
+}
+
+#div_encabezado{
+	display: block;
+	position: static;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 20%;
+	background: #B00;
+}
+
+/********************/
+
+#div_label_encabezado{
+	display: block;
+	position: static;
+	width: 100%;
+	height: 50%;
+}
+
+#label_encabezado_edit_perfil{
+	position: absolute;
+	display: block;
+	width: 100%;
+	top: 0.8em;
+	text-align: center;
+	color: white;
+	font-family: Calibri;
+	font-size: 20px;
+}
+
+/*********************/
+
+#div_opciones_edicion{
+	display: block;
+	position: static;
+	width: 100%;
+	height: 50%;
+}
+
+.bttn_opciones_edit{
+	display: inline;
+	width: 20%;
+	margin-top: 1.3em;
+	margin-left: 0px;
+	margin-right: -4px;
+	border-style: none;
+	border-width: 0px;
+	background: #B00;
+	font-size: 17px;
+	font-family: Calibri;
+	color: white;
+	box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.42);
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.85);
+}
+
+.bttn_opciones_edit:hover{
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.85);
+}
+
+/************************/
+
+#div_cuerpo_edicion{
+	display: block;
+	position: static;
+	width: 100%;
+	height: 80%;
+	max-height: 80%;
+	overflow: scroll;
+}
+
+
+
+
+
+
+
+

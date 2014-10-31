@@ -1,0 +1,210 @@
+
+#div_main_editar_personal{
+	display: block;
+	position: relative;
+	width: 90%;
+	height: auto;
+	margin-top: 1.6%;
+	left: 5%;
+}
+
+#div_editar_nombre{
+	display: block;
+	position: static;
+	margin-bottom: 0.6em;
+}
+
+#div_editar_apellido{
+	display: block;
+	position: static;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+	margin-bottom: 0.6em;
+}
+
+#div_editar_info_general{
+	display: block;
+	position: static;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+	margin-bottom: 0.6em;
+}
+
+#div_editar_telefonos{
+	display: block;
+	position: static;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+	margin-bottom: 0.6em;
+}
+
+#div_bttn_personal{
+	display: block;
+	position: static;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+	margin-bottom: 0.6em;
+}
+
+.label_editar{
+	font-family: Calibri;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.bttn_editar_personal{
+	float: right;
+	font-size: 16px;
+	font-family: Calibri;
+	margin-top: 0.6em;
+	margin-left: 1em;
+}
+
+.input_editar_personal{
+	font-size: 14px;
+	font-family: Calibri;
+	height: 1.6em;
+	box-shadow: 0px 1px #F5F5F5 inset;
+	border: 1px solid #D5D5D5;
+	padding: 4px 6px;
+	font-family: Calibri;
+}
+
+/**********DIV EDITAR NOMBRE***********/
+
+#label_editar_nombre{
+
+}
+
+#input_nombre_1{
+	width: 46%;
+}
+
+#input_nombre_2{
+	width: 46%;
+}
+
+/*********DIV EDITAR APELLIDO*********/
+
+#div_label_apellido{
+	margin-top: 0.6em;
+}
+
+#label_editar_apellido{
+	margin-top: 0.6em;
+}
+
+#input_apellido_1{
+	width: 46%;
+}
+
+#input_apellido_2{
+	width: 46%;
+}
+
+/*********DIV INFORMACIO GENERAL***********/
+
+.info_general{
+	margin-top: 0.8em;
+}
+
+#label_sexo{
+	margin-right: 0.6em;
+}
+
+#input_sexo_h{
+
+}
+
+#input_sexo_m{
+
+}
+
+#input_fecha_nacimiento{
+	width: 10em;
+	margin-left: 4em;
+}
+
+a.dp-choose-date {
+	display: inline-block;
+	float: inherit;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url('../../imagenes/calendar.png') no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+
+/*********DIV EDITAR TELEFONO************/
+
+#div_editar_telefonos{
+	margin-top: 0.6em;
+}
+
+#div_label_telefono{
+	margin-top: 0.6em;
+}
+
+#div_telefono_casa{
+	width: 100%;
+}
+
+#div_casa_1{
+	display: inline-block;
+}
+
+#div_casa_2{
+	display: inline-block;
+}
+
+#div_celular_1{
+	display: inline-block;
+}
+
+#div_celular_2{
+	display: inline-block;
+}
+
+#div_trabajo_1{
+	display: inline-block;
+}
+
+#div_trabajo_2{
+	display: inline-block;
+}
+
+.label_edicion_telefono{
+	float: right;
+}
+
+.div_tel_label{
+	width: 6em;
+	margin-bottom: 0.3em;
+}
+
+.div_tel_input{
+	width: 2em;
+	margin-bottom: 0.2em;
+}
+
+/**********DIV BTTN PERSONAL**********/
+
+#bttn_cancelar_personal{
+	margin-bottom: 2em;
+}
+
+#bttn_guardar_personal{
+	margin-bottom: 2em;
+}
+
+

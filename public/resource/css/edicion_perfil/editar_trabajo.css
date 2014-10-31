@@ -1,0 +1,212 @@
+
+#div_main_edicion_trabajo{
+	display: block;
+	position: relative;
+	width: 90%;
+	height: auto;
+	margin-top: 1.6%;
+	left: 5%;
+}
+
+#div_edicion_ocupacion{
+	display: block;
+	position: static;
+	margin-bottom: 0.6em;
+}
+
+#div_edicion_habilidad{
+	display: block;
+	position: static;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+	margin-bottom: 0.6em;
+}
+
+#div_edicion_empleo{
+	display: block;
+	position: static;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+	margin-bottom: 0.6em;
+}
+
+#div_bttn_editar_trabajo{
+	display: block;
+	position: static;
+	margin-top: 0.6em;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+}
+
+.input_edicion_trabajo{
+	font-size: 14px;
+	font-family: Calibri;
+	width: 94%;
+	height: 1.6em;
+	box-shadow: 0px 1px #F5F5F5 inset;
+	border: 1px solid #D5D5D5;
+	padding: 4px 6px;
+	font-family: Calibri;
+}
+
+.input_edicion_trabajo:hover, .input_edicion_trabajo:focus{
+	border: 1px solid #AAA;
+	outline: medium none;
+}
+
+.label_edicion_trabajo{
+	font-family: Calibri;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.bttn_edicion_trabajo{
+	float: right;
+	font-size: 16px;
+	font-family: Calibri;
+	margin-top: 0.6em;
+	margin-left: 1em;
+}
+
+/********DIV_EDICION_OCUPACION****************/
+
+#label_ocupacion{
+	display: block;
+	position: static;
+}
+
+#input_ocupacion{
+	display: block;
+	position: static;
+}
+
+#input_ocupacion:hover, #input_ocupacion:focus{
+	border: 1px solid #AAA;
+	outline: medium none;
+}
+
+/********DIV_EDICION_HABILIDAD***************/
+
+#label_habilidades{
+	display: block;
+	position: static;
+	margin-top: 0.6em;
+}
+
+#input_habilidades{
+	display: block;
+	position: static;
+}
+
+#input_habilidades:hover, #input_habilidades:focus{
+	border: 1px solid #AAA;
+	outline: medium none;
+}
+
+/********DIV_EDICION_EMPLEO*****************/
+
+#div_label_empleo{
+	display: block;
+	position: static;
+	margin-top: 0.6em;
+}
+
+#div_empleo{
+	display: block;
+	position: static;
+}
+
+#div_descripcion_empleo{
+	display: block;
+	position: static;
+	margin-top: 0.4em;
+}
+
+/*********DIV_LABEL_EMPLEO************/
+
+#label_empleo{
+}
+
+/*********DIV_EMPLEO******************/
+
+.input_datos_empresa{
+	font-size: 14px;
+	font-family: Calibri;
+	height: 1.6em;
+	box-shadow: 0px 1px #F5F5F5 inset;
+	border: 1px solid #D5D5D5;
+	padding: 4px 6px;
+	font-family: Calibri;
+}
+
+.input_datos_empresa:hover, .input_datos_empresa:focus{
+	border: 1px solid #AAA;
+	outline: medium none;
+}
+
+#input_nombre_empresa{
+	display: inline;
+	position: static;
+	width: 46%;
+}
+
+#input_cargo_empresa{
+	display: inline;
+	position: static;
+	width: 46%;
+}
+
+#input_fecha_inicio{
+	width: 10em;
+}
+
+#input_fecha_fin{
+	width: 10em;
+}
+
+a.dp-choose-date {
+	display: inline-block;
+	float: inherit;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url('../../imagenes/calendar.png') no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+
+/********FIN DIV_EDICION_EMPLEO**********/
+/********DIV_DESCRIPCION_EMPLEO**********/
+
+#textarea_descripcion_trabajo{
+	width: 98%;
+	height: 6em;
+	resize: none;
+}
+
+/*********DIV_BTTN_EDITAR_TRABAJO***********/
+
+#bttn_guardar_trabajo{
+	display: inline;
+	position: static;
+	margin-bottom: 1em;
+}
+
+#bttn_cancelar_trabajo{
+	display: inline;
+	position: static;
+	margin-bottom: 1em;
+}
+
+
+
+
+

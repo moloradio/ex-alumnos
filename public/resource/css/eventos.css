@@ -1,0 +1,350 @@
+@charset "utf-8";
+/* CSS Document  Propiedades generales del Calendario*/
+
+#div_izquierdo_perfil{
+	display: list-item;
+}
+
+/*Calendario*/
+
+#calendarview{
+	height: 240px;
+	border-top-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+#minical{
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	margin:0;
+	padding:0;
+	font-family:tahoma;
+	font-size:8pt;
+}
+
+.disabled{
+	color:#CCCCCC;
+}
+
+.headbox{
+	background: #F7F9FC;
+	width:100%;
+	height:15px;
+	display:block;
+	vertical-align:top;
+}
+.bodybox{
+	background-color:#fff;
+	width:100%;
+}
+#barcal{
+	background-color:#E6EDF5;
+	width:100%;
+	height:30px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+/*Propiedades de la tabla calendario*/
+
+table, th, td {
+	border: 1px solid #D4E0EE;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #555;
+	text-align:right;
+}
+
+caption {
+	font-size: 150%;
+	font-weight: bold;
+	margin: 5px;
+}
+
+td, th {
+	padding: 4px;
+}
+
+thead th {
+	text-align: center;
+	background: #E6EDF5;
+	color: #4F76A3;
+	font-size: 100% !important;
+	height:18px;
+}
+
+tbody th {
+	font-weight: bold;
+}
+
+tbody tr { background: #FCFDFE; }
+
+tbody tr.odd { background: #F7F9FC; }
+
+table a:link {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+table a:visited {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+
+
+tfoot th, tfoot td {
+	font-size: 85%;
+}
+
+/*Fin del Calendario*/
+/*Inicio informacion eventos*/
+
+#informacion_eventos{
+	display: block;
+	position: relative;
+	float: inherit;
+	width: 100%;
+	height: 140px;
+	max-height: 140px;
+	background: gray;
+	margin-top: 34px;
+	margin-bottom: 2%;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	background-color:#E6EDF5;
+	overflow: scroll;
+}
+
+#tabla_informacion{
+	float: inherit;
+	position: relative;
+	display: table;
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	border-style: groove;
+	border-width: 1px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-color: white;
+	overflow: scroll;
+}
+
+#div_rows_info_events{
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	overflow: scroll;
+}
+
+.fila_evt{
+	width: 100%;
+	height: 1.6em;
+	position: static;
+	display: table-row;
+}
+
+.columna_evt{
+    background: linear-gradient(to bottom, #FFF 0%, #FEFEFE 24%, #F7F7F7 36%, rgba(190, 209, 242, 1) 73%, rgba(177, 202, 245, 1) 82%, rgba(153, 206, 252, 1) 100%) repeat scroll 0% 0% transparent;
+    background-color: transparent;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+}
+
+#nombre_evento{
+	display: table-column;
+	float: left;
+	width: 30%;
+	border-style: groove;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	text-align: center;
+}
+
+#descripcion_evento{
+	display: table-column;
+	float: left;
+	width: 54%;
+	border-style: groove;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-left-color: white;
+	text-align: center;
+}
+
+#fecha_evento{
+	display: table-column;
+	float: left;
+	width: 14%;
+	border-style: groove;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-width: 0px;
+	border-left-color: white;
+	text-align: center;
+}
+
+.titulo_columna{
+	text-align: center;
+	font-size: 1em;
+	height: 1em;
+	width: 16em;
+	color: #4F76A3;
+}
+
+.div_info_eventos{
+	width: 100%;
+}
+
+.nombre_info_evt{
+	display: table-column;
+	float: left;
+	width: 30%;
+	max-width: 30%;
+	border-style: groove;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 1px;
+	border-top-width: 0px;
+	max-height: 1.4em;
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+.descripcion_info_evt{
+	display: table-column;
+	float: left;
+	width: 54%;
+	max-width: 54%;
+	border-style: groove;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 1px;
+	border-top-width: 0px;
+	border-left-color: white;
+	max-height: 1.4em;
+	overflow:scroll;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+.fecha_info_evt{
+	display: table-column;
+	float: left;
+	width: 14%;
+	max-width: 14%;
+	border-style: groove;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-top-width: 0px;
+	border-left-color: white;
+	max-height: 1.4em;
+	overflow:scroll;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+.titulo_columna_info{
+	font-size: 14px;
+	height: 1.2em;
+	color: black;
+	overflow:scroll;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+/*Numero de ventos*/
+
+#num_eventos{
+	border-radius: 4px;
+	background: #B00;
+	color: white;
+	font-size: 1em;
+	height: 1.2em;
+	width: 10em;
+}
+
+/*Mis Eventos agregados*/
+
+.div_derecho_perfil{
+	margin-right: 1%;
+	margin-top: 1.2%;
+	float: right;
+	width: 36%;
+	height: 60%;
+	overflow: scroll;
+	border-radius: 8px;
+	background: #CECED0;
+}
+
+#label_contactos{
+	text-align: center;
+	font-size: 1.2em;
+	font-family: Calibri;
+	width: 100%;
+}
+
+.div_contacto{
+	width: 94%;
+	margin-left: 3%;
+	border-radius: 8px;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	/*background: #5A758D;*/
+	background: linear-gradient(to bottom, #FFF 0%, #FEFEFE 24%, #F7F7F7 36%, #DADADA 73%, #D6D6D6 82%, #D6D6D6 100%) repeat scroll 0% 0% transparent;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #FFF 0%, #FEFEFE 24%, #F7F7F7 36%, #DADADA 73%, #D6D6D6 82%, #D6D6D6 100%);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+
+    box-shadow: -1px 1px 1px 0px rgba(0, 0, 0, 0.46);
+}
+
+.div_contacto:hover{
+	background: #d6d6d6;
+    background: -moz-linear-gradient(top, #d6d6d6 0%, #d7d7d7 24%, #dedede 36%, #fbfbfb 73%, #ffffff 82%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6d6d6), color-stop(24%,#d7d7d7), color-stop(36%,#dedede), color-stop(73%,#fbfbfb), color-stop(82%,#ffffff), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top, #d6d6d6 0%,#d7d7d7 24%,#dedede 36%,#fbfbfb 73%,#ffffff 82%,#ffffff 100%);
+    background: -o-linear-gradient(top, #d6d6d6 0%,#d7d7d7 24%,#dedede 36%,#fbfbfb 73%,#ffffff 82%,#ffffff 100%);
+    background: -ms-linear-gradient(top, #d6d6d6 0%,#d7d7d7 24%,#dedede 36%,#fbfbfb 73%,#ffffff 82%,#ffffff 100%);
+    background: linear-gradient(to bottom, #d6d6d6 0%,#d7d7d7 24%,#dedede 36%,#fbfbfb 73%,#ffffff 82%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#ffffff',GradientType=0 );
+    -webkit-box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.21);
+    box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.21);
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.42);
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.42);
+}
+
+.imagen_contacto{
+	margin-top: 0.5em;
+	margin-left: 0.7em;
+	height: 13%;
+	width: 12%;
+}
+
+.nombre_contacto{
+	font-family: Calibri;
+	font-size: 1em;
+	top: 40%;
+}
+
+

@@ -1,0 +1,154 @@
+/* 
+    Document   : contacto
+    Created on : 11/04/2014, 11:57:51 PM
+    Author     : Admin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.formulario
+{
+	width: 55%;
+        margin-left: 5%;
+	margin-top: 40px;
+        float: left;
+}
+.texto_contactform_div
+{
+    width: 40%;
+    min-width: 200px;
+    margin-left: auto;
+    margin-top: 90px;
+    float: right;
+    font-family: Calibri;
+    font-size: 15px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+.texto_contactform_div p
+{
+    color: #000000;
+}
+.carta_contacto
+{
+    width: 30%;
+    height: 30%;
+    margin-left: 30%;
+    box-shadow: 2px 3px 10px #555;
+}
+.formulario section, .formulario fieldset
+{
+    border: none;
+}
+/*--- estilos para los elementos del formulario de contacto ---*/
+.contact_form label
+{
+    color: #000000;
+    display: inline-block;
+    float: left;
+    font-family: calibri;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.nombre, .email, .telefono
+{
+                     height:20px; 
+                     width:220px; 
+                     padding:5px 8px;
+}
+.contact_form textarea 
+{
+padding:8px; 
+width:220px;
+}
+.contact_form button 
+{
+margin-left:90px;
+}
+ 
+/*----- estilos visuales de los elementos --------*/
+ 
+.nombre,.email, .telefono, .contact_form textarea 
+{ 
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+    color: #000000;
+    font-family: Calibri;
+    font-size: 14px;
+    padding-right:30px;
+    -moz-transition: padding .25s; 
+    -webkit-transition: padding .25s; 
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+.nombre:focus,.email:focus, .telefono:focus, .contact_form textarea:focus 
+{
+    background: #fff; 
+    border:1px solid #555; 
+    box-shadow: 0 0 3px #aaa; 
+    padding-right:80px;
+}
+.btn_enviar 
+{
+    margin-left: 30%;
+    width: 90px;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 14px;
+    height: 30px;
+    color: #000000;
+    border: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
+    background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.9);
+}
+.btn_enviar:hover 
+{
+    opacity:.95;
+    cursor: pointer; 
+    color: darkblue;
+}
+.hide
+{
+    display: none;
+}
+
+.ajaxgif
+{
+    position: absolute;
+    left: 100px;
+}
+
+.msg{
+	margin-left: 90px;
+	font-family: calibri;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 15px;
+	text-shadow: 1px 1px 10px #0066FF;
+	height: 20px;
+        line-height: 20px;
+        padding: 0 10px;
+	width: 220px;
+	}
+
+.msg_ok
+{
+    width: 220px;
+    text-align: center;
+    background: #003300;
+}
+.msg_error
+{
+    width: 220px;
+    text-align: center;
+    background: #C60;
+}

@@ -1,0 +1,202 @@
+
+#div_main_editar_escuela{
+	display: block;
+	position: relative;
+	width: 90%;
+	height: auto;
+	margin-top: 1.6%;
+	left: 5%;
+}
+
+#div_editar_nombre_escuela{
+	display: block;
+	position: static;
+	margin-bottom: 0.6em;
+}
+
+#div_editar_grado{
+	display: block;
+	position: static;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+	margin-bottom: 0.6em;
+}
+
+#div_editar_titulo{
+	display: block;
+	position: static;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+	margin-bottom: 0.6em;
+}
+
+#div_edicion_fechas{
+	display: block;
+	position: static;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+	margin-bottom: 0.6em;
+}
+
+#div_edicion_descripcion{
+	display: block;
+	position: static;
+	margin-top: 0.6em;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;	
+}
+
+#div_bttn_escuela{
+	display: block;
+	position: static;
+	margin-top: 0.6em;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+}
+
+.label_edicion_escuela{
+	font-family: Calibri;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.input_edicion_escuela{
+	font-size: 14px;
+	font-family: Calibri;
+	width: 94%;
+	height: 1.6em;
+	box-shadow: 0px 1px #F5F5F5 inset;
+	border: 1px solid #D5D5D5;
+	padding: 4px 6px;
+	font-family: Calibri;
+}
+
+.bttn_escuela{
+	float: right;
+	font-size: 16px;
+	font-family: Calibri;
+	margin-top: 0.6em;
+	margin-left: 1em;
+}
+
+/**********DIV_EDITAR_NOMBRE_ESCUELA*********/
+
+#label_edicion_nombre{
+	display: block;
+	position: static;
+}
+
+#input_edicion_nombre{
+	display: block;
+	position: static;
+}
+
+/**********DIV_EDITAR_GRADO*****************/
+
+#label_edicion_grado{
+	display: block;
+	position: static;
+	margin-top: 0.6em;
+}
+
+#select_edicion_grado{
+	display: block;
+	position: static;
+}
+
+#select_edicion_grado{
+	font-size: 14px;
+	font-family: Calibri;
+	height: 1.6em;
+	box-shadow: 0px 1px #F5F5F5 inset;
+	border: 1px solid #D5D5D5;
+	padding: 4px 6px;
+	font-family: Calibri;
+	margin-top: 0.6em;
+	width: 60%;
+}
+
+/***********DIV EDITAR TITULO***************/
+
+#label_edicion_titulo{
+	display: block;
+	position: static;
+	margin-top: 0.6em;
+}
+
+#input_edicion_titulo{
+	display: block;
+	position: static;
+}
+
+/***********DIV EDICION FECHAS**************/
+
+.editar_input_fechas{
+	font-size: 14px;
+	font-family: Calibri;
+	height: 1.6em;
+	box-shadow: 0px 1px #F5F5F5 inset;
+	border: 1px solid #D5D5D5;
+	padding: 4px 6px;
+	font-family: Calibri;
+	margin-top: 0.6em;
+}
+
+#input_fecha_inicio{
+	width: 10em;
+}
+
+#input_fecha_fin{
+	width: 10em;
+}
+
+a.dp-choose-date {
+	display: inline-block;
+	float: inherit;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url('../../imagenes/calendar.png') no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+
+/***********DIV EDICION DESCRIPCION***********/
+
+#textarea_edicion_descripcion{
+	width: 98%;
+	height: 6em;
+	resize: none;
+}
+
+/***********DIV BTTN ESCUEL******************/
+
+#bttn_guardar{
+	display: inline;
+	position: static;
+	margin-bottom: 1em;
+}
+
+#bttn_cancelar{
+	display: inline;
+	position: static;
+	margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+

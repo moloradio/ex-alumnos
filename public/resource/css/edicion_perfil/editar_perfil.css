@@ -1,0 +1,156 @@
+
+#div_main_editar_perfil{
+	display: block;
+	position: absolute;
+	width: 90%;
+	height: 100%;
+	margin-top: 1.6%;
+	left: 5%;
+}
+
+#div_nombre_usuario{
+	display: block;
+	position: static;
+	margin-bottom: 0.6em;
+}
+
+#div_correo{
+	display: block;
+	position: static;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+	margin-bottom: 0.6em;
+}
+
+#div_label_cambiar_contrasena{
+	display: block;
+	position: static;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+	margin-bottom: 0.6em;
+}
+
+#div_contrasena_actual{
+	display: block;
+	position: static;
+}
+
+#div_contrasena_nueva{
+	display: block;
+	position: static;
+}
+
+#div_botones{
+	display: block;
+	position: static;
+	margin-top: 0.6em;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #F5F5F5;
+}
+
+.label_editar_perfil{
+	font-family: Calibri;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.input_editar_perfil{
+	font-size: 14px;
+	font-family: Calibri;
+	width: 22em;
+	height: 1.6em;
+	box-shadow: 0px 1px #F5F5F5 inset;
+	border: 1px solid #D5D5D5;
+	padding: 4px 6px;
+	font-family: Calibri;
+}
+
+.input_editar_perfil:hover, .input_editar_perfil:focus{
+	border: 1px solid #AAA;
+	outline: medium none;
+}
+
+.input_editar_perfil:focus placeholder{
+	color: black;
+}
+
+.buttom_editar_perfil{
+	float: right;
+	font-size: 16px;
+	font-family: Calibri;
+	margin-top: 0.6em;
+	margin-left: 1em;
+}
+
+/********DIV_NOMBRE_USUARIO**********/
+
+#label_nombre_usuario{
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+#input_nombre_usuario{
+	display: block;
+}
+
+/********DIV_CORREO*************/
+
+#label_correo{
+	display: block;
+	margin-bottom: 0.5em;
+	margin-top: 0.6em;
+}
+
+#input_correo{
+	display: block;
+}
+
+/********DIV_LABEL_CAMBIAR_CONTRASENA*********/
+
+#label_contrasena{
+	display: block;
+	margin-top: 0.4em;
+	text-align: center;
+}
+
+/********DIV_CONTRASENA_ACTUAL*********/
+
+#label_contrasena_actual{
+	display: block;
+	margin-bottom: 0.5em;
+	margin-top: 0.1em;
+}
+
+#input_contrasena_actual{
+	display: block;
+}
+
+/********DIV_CONTRASENA_NUEVA******/
+
+#label_contrasena_nueva{
+	display: block;
+	margin-bottom: 0.5em;
+	margin-top: 0.6em;
+}
+
+#input_contrasena_nueva{
+	display: block;
+}
+
+/*******DIV_BOTONES***********/
+
+#bttn_cancelar_editar{
+	display: inline;
+}
+
+#bttn_guardar_editar{
+	display: inline;
+}
+
+
+
+
+

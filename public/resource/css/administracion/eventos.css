@@ -1,0 +1,259 @@
+/*Div contenedor principal*/
+#main_div_eventos{
+	display: list-item;
+	float: inherit;
+	width: 100%;
+	height: 100%;
+}
+
+/*Divs contenidos en contenedor principal*/
+
+#div_cargar_img{
+	display: block;
+	margin-top: 1.5em;
+	height: 17%;
+	width: 100%;
+}
+
+#div_nom_evento{
+	display: block;
+	margin-top: 1em;
+	height: 14%;
+	width: 100%;
+	background: none repeat scroll 0% 0% rgba(120, 120, 120, 0.07);
+}
+
+#div_area_evento{
+	display: block;
+	margin-top: 1em;
+	height: 14%;
+	width: 100%;
+}
+
+#div_descripcion_evento{
+	display: block;
+	margin-top: 1em;
+	height:20%;
+	width: 100%;
+	background: none repeat scroll 0% 0% rgba(120, 120, 120, 0.07);
+}
+
+#div_fecha_hora_evento{
+	display: block;
+	float: left;
+	margin-top: 1em;
+	height: 30%;
+	width: 100%;
+}
+
+#div_bttn_guardar{
+	display: block;
+	float: left;
+	margin-top: 1em;
+	height: 5%;
+	width: 100%;
+	background: none repeat scroll 0% 0% rgba(120, 120, 120, 0.07);
+}
+
+/*Fin divs contenidos en contenedor principal*/
+/**** ELEMENTOS CONTENIDOS EN DIVS ****/
+
+/*Div cargar imagen*/
+
+#img_evento{
+	display: block;
+	position: relative;
+	height: 24%;
+	width: 16%;
+}
+
+#bttn_cargar_img{
+	display: block;
+	position: relative;
+	margin-top: 0.6em;
+}
+
+/*** FIN DIV CARGAR IMAGENES ***/
+/*DIV NOMBRE EVENTO*/
+
+#label_nom_evento{
+	display: block;
+	position: relative;
+	height: 48%;
+}
+
+#input_nom_evento{
+	display: block;
+	position: relative;
+	width: 90%;
+	height: 48%;
+	border-radius: 2px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 14px;
+	padding-right: 30px;
+	box-shadow: 0px 0px 1px #CCC, 0px 10px 15px #EEE inset;
+	transition: all 0.3s linear 0s;
+}
+
+#input_nom_evento:focus{
+	border: 2px solid rgba(91, 90, 90, 0.2);
+	box-shadow: 0px 3px 4px 0px rgba(168, 168, 168, 0.9) inset;
+}
+
+/*** FIN DIV NOMBRE EVENTO ***/
+/*DIV AREA EVENTO*/
+
+#div_area_evento{
+	display: block;
+	position: relative;
+}
+
+#input_area_evento{
+	display: block;
+	position: relative;
+	width: 50%;
+	border-radius: 2px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 14px;
+	padding-right: 30px;
+	box-shadow: 0px 0px 3px #CCC, 0px 10px 15px #EEE inset;
+	transition: all 0.3s linear 0s;
+}
+
+#input_area_evento:focus{
+	border: 2px solid rgba(91, 90, 90, 0.2);
+	box-shadow: 0px 3px 4px 0px rgba(168, 168, 168, 0.9) inset;
+}
+
+/*** FIN DIV AREA EVENTO ***/
+/*DIV DESCRIPCION EVENT0*/
+
+#label_descripcion_evento{
+	display: block;
+	position: relative;
+}
+
+#descripcion_evento{
+	display: block;
+	position: relative;
+	height: 6em;
+	width: 96%;
+	resize: none;
+	border-radius: 2px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 14px;
+	padding-right: 30px;
+	box-shadow: 0px 0px 3px #CCC, 0px 10px 15px #EEE inset;
+	transition: all 0.3s linear 0s;
+}
+
+#descripcion_evento:focus{
+	border: 2px solid rgba(91, 90, 90, 0.2);
+	box-shadow: 0px 3px 4px 0px rgba(168, 168, 168, 0.9) inset;
+}
+
+/*** FIN DIV DESCRIPCION EVENTO ***/
+/* DIV FECHA HORA EVENTO */
+
+#div_fecha_evento{
+	display: block;
+	position: relative;
+	float: left;
+}
+
+#div_hora_evento{
+	display: block;
+	position: relative;
+	float: right;
+}
+
+/*DIV FECHA EVENTO*/
+
+#div_fecha_inicio{}
+
+#label_fecha_inicio{}
+
+#date1{
+	border-radius: 2px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 14px;
+	padding-right: 30px;
+	box-shadow: 0px 0px 3px #CCC, 0px 10px 15px #EEE inset;
+	transition: all 0.3s linear 0s;
+}
+
+#date1:focus{
+	border: 2px solid rgba(91, 90, 90, 0.2);
+	box-shadow: 0px 3px 4px 0px rgba(168, 168, 168, 0.9) inset;
+}
+
+#div_fecha_fin{}
+
+#label_fecha_fin{}
+
+#date2{
+	border-radius: 2px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 14px;
+	padding-right: 30px;
+	box-shadow: 0px 0px 3px #CCC, 0px 10px 15px #EEE inset;
+	transition: all 0.3s linear 0s;
+}
+
+#date2:focus{
+	border: 2px solid rgba(91, 90, 90, 0.2);
+	box-shadow: 0px 3px 4px 0px rgba(168, 168, 168, 0.9) inset;
+}
+
+/*** FIN DIV FECHA EVENTO ***/
+
+/*** FIN DIV FECHA HORA EVENTO ***/
+/*DIV BOTON GUARDAR*/
+
+#bttn_guardar{
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+/*** FIN DIV BOTON GUARDAR ***/
+
+
+
+
+/* FUNCIONES GENERALES */
+
+label{
+	font-family: Calibri;
+}
+
+/**********/
+
+a.dp-choose-date {
+	float: right;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url('../../imagenes/calendar.png') no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+/* makes the input field shorter once the date picker code
+ * has run (to allow space for the calendar icon
+ */
+input.dp-applied {
+	width: 140px;
+}
+
+

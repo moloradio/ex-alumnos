@@ -1,0 +1,219 @@
+/*DIV principales, contenedore principales*/
+#main_div_perfil{
+	background: none repeat scroll 0% 0% rgba(120, 120, 120, 0.07);
+	margin-top: 1.2em;
+	display: list-item;
+	position: static;
+	border-radius: 8px;
+	width: 100%;
+	height: 76%;
+}
+
+.div_izquierdo_perfil{
+	float: inherit;
+	width: 90%;
+	margin-top: 1.2%;
+	margin-left: 1%;
+	border-radius: 8px;
+}
+
+.div_derecho_perfil{
+	margin-right: 1%;
+	margin-top: 2%;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color: #D5D5D5;
+	float: inherit;
+	width: 100%;
+	height: 60%;
+	overflow: scroll;
+	border-radius: 8px;
+	background: #CECED0;
+}
+
+.div_izquierdo_perfil, .div_derecho_perfil{
+	display: inherit;
+	position: inherit;
+}
+
+/*Contenedor Izquierdo*/
+
+.in_div_izquierdo{
+	width: 100%;
+	height: 100%;
+}
+
+.izquierdo{
+	display: block;
+	float: inherit;
+	font-family: Calibri;
+}
+
+.title{
+	color: #555;
+}
+
+#div_cerrar_sesion{
+	display: block;
+}
+
+#bttn_sesion{
+	margin-right: 1.6em;
+	float: right;
+}
+
+#img_perfil{
+	margin-left: 1%;
+	margin-top: 0.7%;
+	height: 28%;
+	width: 20%;
+}
+
+#bttn_subir_img{
+	margin-left: 2%;
+	margin-top: 1em;
+	margin-bottom: 0.4em;
+}
+
+#text_info_titulo{
+	margin-left: 1%;
+	width: 98%;
+	height: 5em;
+	border-style: dashed;
+	box-shadow: 0px 1px #F5F5F5 inset;
+	box-sizing: border-box;
+	border: 1px solid #D5D5D5;
+	resize: none;
+}
+
+#text_info_subtitulo{
+	margin-left: 1%;
+	width: 98%;
+	height: 5em;
+	box-shadow: 0px 1px #F5F5F5 inset;
+	box-sizing: border-box;
+	border: 1px solid #D5D5D5;
+	resize: none;
+}
+
+#text_info_introduccion{
+	margin-left: 1%;
+	width: 98%;
+	height: 6em;
+	box-shadow: 0px 1px #F5F5F5 inset;
+	box-sizing: border-box;
+	border: 1px solid #D5D5D5;
+	resize: none;
+}
+
+#text_info_cuerpo{
+	margin-left: 1%;
+	width: 98%;
+	height: 12em;
+	box-shadow: 0px 1px #F5F5F5 inset;
+	box-sizing: border-box;
+	border: 1px solid #D5D5D5;
+	resize: none;
+}
+
+#text_info_epigrafe{
+	margin-left: 1%;
+	width: 98%;
+	height: 4em;
+	box-shadow: 0px 1px #F5F5F5 inset;
+	box-sizing: border-box;
+	border: 1px solid #D5D5D5;
+	resize: none;
+}
+
+.editar{
+	float: right;
+}
+
+.div_titulo_info{
+	width: 80%;
+}
+
+.div_titulo_info label{
+	font-family: Calibri;
+	font-weight: bold;
+}
+
+/*Contenedor derecho*/
+
+.in_div_derecho{
+	display: inline;
+	float: right;
+	width: 100%;
+	max-height: 100%;
+}
+
+#label_contactos{
+	text-align: center;
+	font-size: 1.2em;
+	font-family: Calibri;
+	width: 100%;
+}
+
+.div_contacto{
+	width: 94%;
+	margin-left: 3%;
+	border-radius: 8px;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	/*background: #5A758D;*/
+	background: linear-gradient(to bottom, #FFF 0%, #FEFEFE 24%, #F7F7F7 36%, #DADADA 73%, #D6D6D6 82%, #D6D6D6 100%) repeat scroll 0% 0% transparent;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #FFF 0%, #FEFEFE 24%, #F7F7F7 36%, #DADADA 73%, #D6D6D6 82%, #D6D6D6 100%);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+
+    box-shadow: -1px 1px 1px 0px rgba(0, 0, 0, 0.46);
+}
+
+.div_contacto:hover{
+	background: #d6d6d6;
+    background: -moz-linear-gradient(top, #d6d6d6 0%, #d7d7d7 24%, #dedede 36%, #fbfbfb 73%, #ffffff 82%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6d6d6), color-stop(24%,#d7d7d7), color-stop(36%,#dedede), color-stop(73%,#fbfbfb), color-stop(82%,#ffffff), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top, #d6d6d6 0%,#d7d7d7 24%,#dedede 36%,#fbfbfb 73%,#ffffff 82%,#ffffff 100%);
+    background: -o-linear-gradient(top, #d6d6d6 0%,#d7d7d7 24%,#dedede 36%,#fbfbfb 73%,#ffffff 82%,#ffffff 100%);
+    background: -ms-linear-gradient(top, #d6d6d6 0%,#d7d7d7 24%,#dedede 36%,#fbfbfb 73%,#ffffff 82%,#ffffff 100%);
+    background: linear-gradient(to bottom, #d6d6d6 0%,#d7d7d7 24%,#dedede 36%,#fbfbfb 73%,#ffffff 82%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#ffffff',GradientType=0 );
+    -webkit-box-shadow: inset 0 0 0px 0 rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: inset 0 0 0px 0 rgba(0, 0, 0, 0.21);
+    box-shadow: inset 0 0 0px 0 rgba(0, 0, 0, 0.21);
+    -webkit-box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.42);
+    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.42);
+}
+
+.imagen_contacto{
+	margin-top: 0.5em;
+	margin-left: 0.7em;
+	height: 13%;
+	width: 12%;
+}
+
+.nombre_contacto{
+	font-family: Calibri;
+	font-size: 1em;
+	top: 40%;
+}
+
+/*Contenedor para informacion del usuario*/
+
+.div_contenedor_info_noticia{
+	border-top: 2px groove #DADADA;
+	border-bottom: 1px groove #DADADA;
+	border-color: #DADADA;
+	background: white;
+}
+
+
+
+

@@ -1,0 +1,159 @@
+/* 
+    Document   : registro_usr
+    Created on : 21/04/2014, 12:30:32 PM
+    Author     : Admin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.formulario_rg
+{
+	width: 90%;
+        margin-left: 5%;
+	margin-top: 5px;
+        background-image: url('../imagenes/bg.png');
+}
+
+.formulario_rg section, .formulario_rg fieldset
+{
+    border: 0px;
+}
+#login_frm_sc{
+    height: 320px;
+}
+.div_reg1_izq
+{
+    width: 49%;
+    float: left;
+}
+.div_reg1_der
+{
+    width: 49%;
+    float: right;
+}
+.formulario_rg label
+{
+    color: #000000;
+    font-family: calibri;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.nombre_rg, .apellidoM_rg, .apellidoP_rg, .correo_rg, .telefono_rg, .fecha_nac, .fecha_egreso, .matricula
+{
+     height:20px; 
+     width:70%; 
+     padding:5px 8px;
+}
+.apellidoM_rg
+{
+    margin-top: 5px;
+}
+.carrera, .campus
+{
+    height:32px; 
+    width:82%; 
+    padding:5px 8px;
+}
+.captcha
+{
+    height: 20px;
+    padding:5px 8px;
+    float: left;
+}
+.captcha_img
+{
+    float: right;
+    height: 30px;
+}
+.captcha_div
+{
+    height: 30px;
+    width: 48%;
+}
+.nombre_rg, .apellidoM_rg, .apellidoP_rg, .correo_rg, .telefono_rg, .fecha_nac, .fecha_egreso, .matricula, .carrera, .campus, .captcha
+{ 
+    border:1px solid #aaa;
+    border-radius:2px;
+    color: #000000;
+    font-family: Calibri;
+    font-size: 14px;
+    padding-right:30px;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    -webkit-box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;;
+    -moz-box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.nombre_rg:focus, .apellidoM_rg:focus, 
+.apellidoP_rg:focus, .correo_rg:focus, .telefono_rg:focus, 
+.fecha_nac:focus, .fecha_egreso:focus, .matricula:focus, 
+.carrera:focus, .campus:focus
+{
+    border: 1px solid rgba(91, 90, 90, 0.7);	
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+    -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+}
+.registrar_btn
+{
+    width: 90px;
+    font-weight: bold;
+    font-size: 13px;
+    height: 30px;
+    color: #000000;
+    border: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
+    background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.9);
+}
+.registrar_btn:hover
+{
+    opacity: .90;
+    cursor: pointer; 
+    color: darkblue;
+}
+
+.hide
+{
+    display: none;
+}
+
+.ajaxgif
+{
+    position: absolute;
+    left: 100px;
+}
+
+.msg{
+	margin-left: 90px;
+	font-family: calibri;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 15px;
+	text-shadow: 1px 1px 10px #0066FF;
+	height: 20px;
+        line-height: 20px;
+        padding: 0 10px;
+	width: 220px;
+	}
+
+.msg_ok
+{
+    width: 220px;
+    text-align: center;
+    background: #003300;
+}
+.msg_error
+{
+    width: 220px;
+    text-align: center;
+    background: #C60;
+}

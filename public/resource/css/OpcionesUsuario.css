@@ -1,0 +1,131 @@
+/* 
+    Document   : OpcionesUsuario
+    Author     : LOGIMaDE © Derechos Reservados 2014 
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.bttn_opciones{
+	background:rgba(187,0,0,1);
+	width: 90%;
+	height: 2.6em;
+	border-radius: 8px;
+	border-width: 0px;
+	color: #ffffff;
+	margin-top: 0.2em;
+	font-size: 0.8em;
+}
+
+.bttn_opciones:hover{
+	box-shadow: 2px 3px 10px #553;
+	position: 2em;
+	margin-left: 2%;
+}
+
+#content_principal{
+	width: 100%;
+	height: 100%;
+}
+
+.label_titulo{
+	font-weight: bold;
+	font-size: 1.2em;
+	text-shadow: 1px 1px #FFF;
+}
+
+#bttn_admon{
+	width: 100%;
+}
+
+#bttn_admon:hover{
+	margin-left: 0%;
+}
+
+/*MENU ESCONDIDO*/
+
+.menu{
+	width: 100%;
+	height: 2.2em;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+.item1{
+	position: relative;
+	width: 90%;
+	height: 2em;
+	text-align: left;
+	margin-bottom: -2%;
+}
+
+.menu,
+.menu #content_admon {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu .item1 .div_admon{
+	display: list-item;
+	position: relative;
+	list-style: none;
+	width: 100%;
+	height: 6.3em;
+	background: rgba(155, 8, 8, 1);
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	text-align: center;
+	display: none;
+}
+
+#subitem1, #subitem2, #subitem3{
+	width: 90%;
+}
+
+#text3_{
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.subitem{
+	width: 80%;
+	margin-left: 5%;
+	text-align: left;
+	font-family: Calibri;
+}
+
+.menu #content_admon .subitem .text_opcion {
+    background: #fff;
+    border-bottom: 1px solid #efeff0;
+    width: 100%;
+    height: 2em;
+    line-height: 2.75em;
+    text-indent: 2.75em;
+    display: block;
+    position: relative;
+    font-family: Calibri;
+    font-size: 0.923em;
+    font-weight: 400;
+    color: #878d95;
+}
+
+.item1 > button:before {
+    background-position: 0 0;
+}
+
+.menu > .item1 > #content_admon .subitem .text_opcion:before {
+    content: '▶';
+    font-size: 8px;
+    color: #bcbcbf;
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    top: 0;
+    left: -2.7em;
+}
+ 
+.menu > .item1 > #content_admon .subitem:hover .text_opcion,
+.menu > .item1 > #content_admon .subitem:hover .text_opcion span,
+.menu > .item1 > #content_admon .subitem:hover .text_opcion:before {
+    color: #32373D;
+}
+
